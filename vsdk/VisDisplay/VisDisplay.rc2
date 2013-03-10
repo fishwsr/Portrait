@@ -1,0 +1,24 @@
+//
+// VISDISPLAY.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+// Copyright © 1997-1998 Microsoft Corporation, All Rights Reserved
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+#include "VisDisplayVersion.h"
+
+#define VIS_SDK_PROJECT_DESCRIPTION			VIS_DISPLAY_DESCRIPTION
+#define VIS_SDK_PROJECT_BASE_NAME			VIS_DISPLAY_BASE_NAME
+#define VIS_SDK_PROJECT_DEBUG_BASE_NAME		VIS_DISPLAY_DEBUG_BASE_NAME
+
+#include "..\VisSDKVersion.rc"
+
+
+/////////////////////////////////////////////////////////////////////////////

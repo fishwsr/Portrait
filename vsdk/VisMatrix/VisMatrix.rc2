@@ -1,0 +1,22 @@
+//
+// VISMATRIX.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+#include "VisMatrixVersion.h"
+
+#define VIS_SDK_PROJECT_DESCRIPTION			VIS_MATRIX_DESCRIPTION
+#define VIS_SDK_PROJECT_BASE_NAME			VIS_MATRIX_BASE_NAME
+#define VIS_SDK_PROJECT_DEBUG_BASE_NAME		VIS_MATRIX_DEBUG_BASE_NAME
+
+#include "..\VisSDKVersion.rc"
+
+
+/////////////////////////////////////////////////////////////////////////////

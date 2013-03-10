@@ -1,0 +1,192 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VisCore - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/VisCore.res" /d "_DEBUG" "D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCore.rc"" 
+Creating temporary file "C:\DOCUME~1\zijian\LOCALS~1\Temp\RSP16D5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "VIS_CORE_BUILD" /D "VIS_INCLUDE_SDSTREAM" /Fp"Debug/VisCore.pch" /YX"VisCorePch.h" /Fo"Debug/" /Fd"Debug/VisCoreDB" /FD /GZ /GZ /GZ /c 
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisAudioOperation.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisAudioSamples.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisAVIStreamIO.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisConsoleWnd.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCopyGrayPixels.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCopyStandardPixels.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCoreDLL.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisDDrawConversion.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisDiagnostics.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisDiagnosticsManager.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisDiagnosticsMsg.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisDib.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisDibFileIO.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisDim.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisDShowStreamIO.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisEnumPixel.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisError.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisFileHandlerMagick.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisFileIO.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisGlobals.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisImageBase.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisImageInfo.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisImageWnd.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisMemBlock.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisMSVFileIO.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisPictureFileHandler.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisPPMFileIO.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisProp.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisPropList.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisPropListInternal.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisPSFileIO.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisPump.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisRGBAPixels.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisSDIStream.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisSDOStream.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisSDStream.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisSequence.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisStandardProps.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisTimer2.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisXIpl.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zijian\LOCALS~1\Temp\RSP16D5.tmp" 
+Creating temporary file "C:\DOCUME~1\zijian\LOCALS~1\Temp\RSP16D6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib vfw32.lib DXGUID.LIB ddraw.lib AMSTRMID.LIB STRMBASD.LIB comctl32.lib /nologo /base:"0x64000000" /dll /incremental:no /pdb:"..\bin/VisCoreDB.pdb" /debug /machine:I386 /out:"..\bin\VisCoreDB.dll" /implib:"..\lib/VisCoreDB.lib" 
+.\Debug\VisAudioOperation.obj
+.\Debug\VisAudioSamples.obj
+.\Debug\VisAVIStreamIO.obj
+.\Debug\VisConsoleWnd.obj
+.\Debug\VisCopyGrayPixels.obj
+.\Debug\VisCopyStandardPixels.obj
+.\Debug\VisCoreDLL.obj
+.\Debug\VisDDrawConversion.obj
+.\Debug\VisDiagnostics.obj
+.\Debug\VisDiagnosticsManager.obj
+.\Debug\VisDiagnosticsMsg.obj
+.\Debug\VisDib.obj
+.\Debug\VisDibFileIO.obj
+.\Debug\VisDim.obj
+.\Debug\VisDShowStreamIO.obj
+.\Debug\VisEnumPixel.obj
+.\Debug\VisError.obj
+.\Debug\VisFileHandlerMagick.obj
+.\Debug\VisFileIO.obj
+.\Debug\VisGlobals.obj
+.\Debug\VisImageBase.obj
+.\Debug\VisImageInfo.obj
+.\Debug\VisImageWnd.obj
+.\Debug\VisMemBlock.obj
+.\Debug\VisMSVFileIO.obj
+.\Debug\VisPictureFileHandler.obj
+.\Debug\VisPPMFileIO.obj
+.\Debug\VisProp.obj
+.\Debug\VisPropList.obj
+.\Debug\VisPropListInternal.obj
+.\Debug\VisPSFileIO.obj
+.\Debug\VisPump.obj
+.\Debug\VisRGBAPixels.obj
+.\Debug\VisSDIStream.obj
+.\Debug\VisSDOStream.obj
+.\Debug\VisSDStream.obj
+.\Debug\VisSequence.obj
+.\Debug\VisStandardProps.obj
+.\Debug\VisTimer2.obj
+.\Debug\VisXIpl.obj
+.\Debug\VisCore.res
+]
+Creating command line "link.exe @C:\DOCUME~1\zijian\LOCALS~1\Temp\RSP16D6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+VisAudioOperation.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisAudioSamples.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisAVIStreamIO.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisConsoleWnd.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisCopyGrayPixels.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisCopyStandardPixels.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisCoreDLL.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisDDrawConversion.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisDiagnostics.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisDiagnosticsManager.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisDiagnosticsMsg.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisDib.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisDibFileIO.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisDim.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisDShowStreamIO.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisEnumPixel.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisError.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisFileHandlerMagick.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisFileIO.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisGlobals.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisImageBase.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisImageInfo.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisImageWnd.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisMemBlock.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisMSVFileIO.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisPictureFileHandler.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisPPMFileIO.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisProp.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisPropList.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisPropListInternal.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisPSFileIO.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisPump.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisRGBAPixels.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisSDIStream.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisSDOStream.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisSDStream.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisSequence.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisStandardProps.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisTimer2.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+VisXIpl.cpp
+D:\Research\Sourcecode\current\Humanface\vsdk\VisCore\VisCorePch.h(8) : fatal error C1083: Cannot open include file: 'VisWin.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+VisCoreDB.dll - 40 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,199 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VisLocalInfo - Win32 Release--------------------
+</h3>
+
+VisLocalInfo.h already exists.  File not modified.
+<h3>
+--------------------Configuration: VisCoreLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+VisCoreLib.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: VisLocalInfo - Win32 Debug--------------------
+</h3>
+
+VisLocalInfo.h already exists.  File not modified.
+<h3>
+--------------------Configuration: VisCoreLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\lliang\LOCALS~1\Temp\RSP3A4.tmp" with contents
+[
+/nologo /MDd /W3 /GX /Zi /Od /D "_DEBUG" /D "VIS_SDK_LIBS" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "VIS_CORE_BUILD" /D "VIS_INCLUDE_SDSTREAM" /Fp"DbgLib/VisCoreLib.pch" /YX"VisCorePch.h" /Fo"DbgLib/" /Fd"..\Lib/VisCoreLibDB" /FD /GZ /c 
+"D:\LiangLin\BetaVisSDK\VisCore\VisAudioOperation.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisAudioSamples.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisAVIStreamIO.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisConsoleWnd.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisCopyGrayPixels.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisCopyStandardPixels.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisDDrawConversion.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisDiagnostics.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisDiagnosticsManager.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisDiagnosticsMsg.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisDib.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisDibFileIO.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisDim.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisDShowStreamIO.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisEnumPixel.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisError.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisFileHandlerMagick.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisFileIO.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisGlobals.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisImageBase.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisImageInfo.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisImageWnd.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisMemBlock.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisMSVFileIO.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisPictureFileHandler.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisPPMFileIO.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisProp.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisPropList.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisPropListInternal.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisPSFileIO.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisPump.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisRGBAPixels.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisSDIStream.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisSDOStream.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisSDStream.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisSequence.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisStandardProps.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisTimer2.cpp"
+"D:\LiangLin\BetaVisSDK\VisCore\VisXIpl.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\lliang\LOCALS~1\Temp\RSP3A4.tmp" 
+Creating temporary file "C:\DOCUME~1\lliang\LOCALS~1\Temp\RSP3A5.tmp" with contents
+[
+/nologo /out:"..\Lib\VisCoreLibDB.lib" 
+.\DbgLib\VisAudioOperation.obj
+.\DbgLib\VisAudioSamples.obj
+.\DbgLib\VisAVIStreamIO.obj
+.\DbgLib\VisConsoleWnd.obj
+.\DbgLib\VisCopyGrayPixels.obj
+.\DbgLib\VisCopyStandardPixels.obj
+.\DbgLib\VisDDrawConversion.obj
+.\DbgLib\VisDiagnostics.obj
+.\DbgLib\VisDiagnosticsManager.obj
+.\DbgLib\VisDiagnosticsMsg.obj
+.\DbgLib\VisDib.obj
+.\DbgLib\VisDibFileIO.obj
+.\DbgLib\VisDim.obj
+.\DbgLib\VisDShowStreamIO.obj
+.\DbgLib\VisEnumPixel.obj
+.\DbgLib\VisError.obj
+.\DbgLib\VisFileHandlerMagick.obj
+.\DbgLib\VisFileIO.obj
+.\DbgLib\VisGlobals.obj
+.\DbgLib\VisImageBase.obj
+.\DbgLib\VisImageInfo.obj
+.\DbgLib\VisImageWnd.obj
+.\DbgLib\VisMemBlock.obj
+.\DbgLib\VisMSVFileIO.obj
+.\DbgLib\VisPictureFileHandler.obj
+.\DbgLib\VisPPMFileIO.obj
+.\DbgLib\VisProp.obj
+.\DbgLib\VisPropList.obj
+.\DbgLib\VisPropListInternal.obj
+.\DbgLib\VisPSFileIO.obj
+.\DbgLib\VisPump.obj
+.\DbgLib\VisRGBAPixels.obj
+.\DbgLib\VisSDIStream.obj
+.\DbgLib\VisSDOStream.obj
+.\DbgLib\VisSDStream.obj
+.\DbgLib\VisSequence.obj
+.\DbgLib\VisStandardProps.obj
+.\DbgLib\VisTimer2.obj
+.\DbgLib\VisXIpl.obj
+.\DbgLib\VisCore.res
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\lliang\LOCALS~1\Temp\RSP3A5.tmp"
+<h3>Output Window</h3>
+Compiling...
+VisAudioOperation.cpp
+VisAudioSamples.cpp
+VisAVIStreamIO.cpp
+VisConsoleWnd.cpp
+VisCopyGrayPixels.cpp
+VisCopyStandardPixels.cpp
+VisDDrawConversion.cpp
+VisDiagnostics.cpp
+VisDiagnosticsManager.cpp
+VisDiagnosticsMsg.cpp
+VisDib.cpp
+VisDibFileIO.cpp
+VisDim.cpp
+VisDShowStreamIO.cpp
+VisEnumPixel.cpp
+VisError.cpp
+VisFileHandlerMagick.cpp
+VisFileIO.cpp
+VisGlobals.cpp
+VisImageBase.cpp
+VisImageInfo.cpp
+VisImageWnd.cpp
+VisMemBlock.cpp
+VisMSVFileIO.cpp
+VisPictureFileHandler.cpp
+VisPPMFileIO.cpp
+VisProp.cpp
+VisPropList.cpp
+VisPropListInternal.cpp
+VisPSFileIO.cpp
+VisPump.cpp
+VisRGBAPixels.cpp
+VisSDIStream.cpp
+VisSDOStream.cpp
+VisSDStream.cpp
+VisSequence.cpp
+VisStandardProps.cpp
+VisTimer2.cpp
+VisXIpl.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+VisCoreLibDB.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: VisMatrixLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+VisMatrixLib.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: VisMatrixLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\lliang\LOCALS~1\Temp\RSP3A6.tmp" with contents
+[
+/nologo /MDd /W3 /GX /Zi /Od /D "_DEBUG" /D "VIS_SDK_LIBS" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "VIS_MATRIX_BUILD" /D "VIS_INCLUDE_SDSTREAM" /Fp"DbgLib/VisMatrixLib.pch" /YX"VisMatrixPch.h" /Fo"DbgLib/" /Fd"..\Lib/VisMatrixLibDB" /FD /GZ /c 
+"D:\LiangLin\BetaVisSDK\vismatrix\VisCovariance.cpp"
+"D:\LiangLin\BetaVisSDK\vismatrix\VisDMatrix.cpp"
+"D:\LiangLin\BetaVisSDK\vismatrix\VisTransform4x4.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\lliang\LOCALS~1\Temp\RSP3A6.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\Lib\VisMatrixLibDB.lib"  .\DbgLib\VisCovariance.obj .\DbgLib\VisDMatrix.obj .\DbgLib\VisTransform4x4.obj "
+<h3>Output Window</h3>
+Compiling...
+VisCovariance.cpp
+VisDMatrix.cpp
+VisTransform4x4.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+VisMatrixLibDB.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

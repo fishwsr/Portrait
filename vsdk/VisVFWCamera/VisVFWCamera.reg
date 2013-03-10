@@ -1,0 +1,235 @@
+REGEDIT4
+
+
+;
+; VisSDK registry key
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK]
+
+
+;
+; VisVFW registry key (release)
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\1.0]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\1.0\ImSrc]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\1.0\ImSrc\Devs]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\1.0\ImSrc\Devs\VisVFW]
+@="Video For Windows"
+"DLL"="VisVFWCamera.dll"
+"Available"=dword:00000001
+
+
+;
+; VisVFW registry key (debug)
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\Debug\1.0]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\Debug\1.0\ImSrc]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\Debug\1.0\ImSrc\Devs]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\Debug\1.0\ImSrc\Devs\VisVFW]
+@="Video For Windows (Debug)"
+"DLL"="VisVFWCameraDB.dll"
+"Available"=dword:00000001
+
+
+;
+; Osprey-100 driver (PCI card)
+;
+; Need to specify that 8-bit format is grayscale and that RGB and Gray images are flipped.
+;
+; Note:  CanSetVideoFormat is set to false because capSetVideoFormat doesn't seem to work as expected (in ExCamera).
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\1.0\ImSrc\Devs\VisVFW\o100vc.dll]
+"EVisImEncodingGray8bit"=dword:00000000
+"EVisImEncodingRGB555"=dword:00000000
+"EVisImEncodingRGB24"=dword:00000000
+"EVisImEncodingRGBA32"=dword:00000000
+"EVisImEncodingIYUV"=dword:30323449
+"EVisImEncodingYUY2"=dword:32595559
+"EVisImEncodingYVU9"=dword:39555659
+"Width"=dword:00000140
+"Height"=dword:000000f0
+"Flipped"=dword:00000000
+"FlippedRGBA32"=dword:00000001
+"FlippedRGB24"=dword:00000001
+"FlippedRGB555"=dword:00000001
+"FlippedGray8bit"=dword:00000001
+"UseNegHeightToFlip"=dword:00000000
+"CanSetVideoFormat"=dword:00000000
+"EVisConvYUV"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\Debug\1.0\ImSrc\Devs\VisVFW\o100vc.dll]
+"EVisImEncodingGray8bit"=dword:00000000
+"EVisImEncodingRGB555"=dword:00000000
+"EVisImEncodingRGB24"=dword:00000000
+"EVisImEncodingRGBA32"=dword:00000000
+"EVisImEncodingIYUV"=dword:30323449
+"EVisImEncodingYUY2"=dword:32595559
+"EVisImEncodingYVU9"=dword:39555659
+"Width"=dword:00000140
+"Height"=dword:000000f0
+"Flipped"=dword:00000000
+"FlippedRGBA32"=dword:00000001
+"FlippedRGB24"=dword:00000001
+"FlippedRGB555"=dword:00000001
+"FlippedGray8bit"=dword:00000001
+"UseNegHeightToFlip"=dword:00000000
+"CanSetVideoFormat"=dword:00000000
+"EVisConvYUV"=dword:00000001
+
+
+;
+; Intel Smart Video Recorder III driver (PCI card, beta driver for Windows NT, doesn't support capSetVideoFormat)
+;
+; The FlippedIYUV, FlippedYVU9, and CanSetVideoFormat values are needed.
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\1.0\ImSrc\Devs\VisVFW\ISVR III Capture Driver Beta]
+"EVisImEncodingColor8bit"=dword:00000000
+"EVisImEncodingRGB555"=dword:00000000
+"EVisImEncodingRGB24"=dword:00000000
+"EVisImEncodingIYUV"=dword:56555949
+"EVisImEncodingYVU9"=dword:39555659
+"FlippedIYUV"=dword:00000000
+"FlippedYVU9"=dword:00000000
+"EVisConvYUV"=dword:00000001
+"CanSetVideoFormat"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\Debug\1.0\ImSrc\Devs\VisVFW\ISVR III Capture Driver Beta]
+"EVisImEncodingColor8bit"=dword:00000000
+"EVisImEncodingRGB555"=dword:00000000
+"EVisImEncodingRGB24"=dword:00000000
+"EVisImEncodingIYUV"=dword:56555949
+"EVisImEncodingYVU9"=dword:39555659
+"FlippedIYUV"=dword:00000000
+"FlippedYVU9"=dword:00000000
+"EVisConvYUV"=dword:00000001
+"CanSetVideoFormat"=dword:00000000
+
+
+;
+; Intel Smart Video Recorder III driver (PCI card, final driver for Windows NT?, still doesn't support capSetVideoFormat)
+;
+; The FlippedIYUV, FlippedYVU9, and CanSetVideoFormat values are needed.
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\1.0\ImSrc\Devs\VisVFW\ISVR III Capture Driver]
+"EVisImEncodingColor8bit"=dword:00000000
+"EVisImEncodingRGB555"=dword:00000000
+"EVisImEncodingRGB24"=dword:00000000
+"EVisImEncodingIYUV"=dword:56555949
+"EVisImEncodingYVU9"=dword:39555659
+"FlippedIYUV"=dword:00000000
+"FlippedYVU9"=dword:00000000
+"EVisConvYUV"=dword:00000001
+"CanSetVideoFormat"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\Debug\1.0\ImSrc\Devs\VisVFW\ISVR III Capture Driver]
+"EVisImEncodingColor8bit"=dword:00000000
+"EVisImEncodingRGB555"=dword:00000000
+"EVisImEncodingRGB24"=dword:00000000
+"EVisImEncodingIYUV"=dword:56555949
+"EVisImEncodingYVU9"=dword:39555659
+"FlippedIYUV"=dword:00000000
+"FlippedYVU9"=dword:00000000
+"EVisConvYUV"=dword:00000001
+"CanSetVideoFormat"=dword:00000000
+
+
+;
+; Intel Smart Video Recorder III driver (PCI card, latest driver version, still seems to have problems with capSetVideoFormat)
+;
+; The FlippedIYUV, FlippedYVU9, and CanSetVideoFormat values are needed.
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\1.0\ImSrc\Devs\VisVFW\Intel Smart Video Recorder III (NT)]
+"EVisImEncodingColor8bit"=dword:00000000
+"EVisImEncodingRGB555"=dword:00000000
+"EVisImEncodingRGB24"=dword:00000000
+"EVisImEncodingIYUV"=dword:56555949
+"EVisImEncodingYVU9"=dword:39555659
+"FlippedIYUV"=dword:00000000
+"FlippedYVU9"=dword:00000000
+"EVisConvYUV"=dword:00000001
+"CanSetVideoFormat"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\Debug\1.0\ImSrc\Devs\VisVFW\Intel Smart Video Recorder III (NT)]
+"EVisImEncodingColor8bit"=dword:00000000
+"EVisImEncodingRGB555"=dword:00000000
+"EVisImEncodingRGB24"=dword:00000000
+"EVisImEncodingIYUV"=dword:56555949
+"EVisImEncodingYVU9"=dword:39555659
+"FlippedIYUV"=dword:00000000
+"FlippedYVU9"=dword:00000000
+"EVisConvYUV"=dword:00000001
+"CanSetVideoFormat"=dword:00000000
+
+
+;
+; Trident driver (on IBM ThinkPad)
+;
+; The EVisImEncodingYUY2 and EVisImEncodingIYUV values are needed.
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\1.0\ImSrc\Devs\VisVFW\Trident Video Capture Driver]
+"EVisImEncodingColor8bit"=dword:00000000
+"EVisImEncodingRGB555"=dword:00000000
+"EVisImEncodingRGB24"=dword:00000000
+"EVisImEncodingYUY2"=dword:6e327974
+"EVisImEncodingIYUV"=dword:6e307974
+"EVisConvYUV"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\1.0\ImSrc\Devs\VisVFW\Trident Video Capture Driver]
+"EVisImEncodingColor8bit"=dword:00000000
+"EVisImEncodingRGB555"=dword:00000000
+"EVisImEncodingRGB24"=dword:00000000
+"EVisImEncodingYUY2"=dword:6e327974
+"EVisImEncodingIYUV"=dword:6e307974
+"EVisConvYUV"=dword:00000001
+
+
+;
+; Nogatech driver (PC Card)
+;
+; The FlippedIYUV value is needed.
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\1.0\ImSrc\Devs\VisVFW\Nogatech Video Capture]
+"EVisImEncodingColor8bit"=dword:00000000
+"EVisImEncodingRGB555"=dword:00000000
+"EVisImEncodingRGB24"=dword:00000000
+"EVisImEncodingYUY2"=dword:32595559
+"EVisImEncodingIYUV"=dword:30323449
+"EVisConvYUV"=dword:00000001
+"FlippedIYUV"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\Debug\1.0\ImSrc\Devs\VisVFW\Nogatech Video Capture]
+"EVisImEncodingColor8bit"=dword:00000000
+"EVisImEncodingRGB555"=dword:00000000
+"EVisImEncodingRGB24"=dword:00000000
+"EVisImEncodingYUY2"=dword:32595559
+"EVisImEncodingIYUV"=dword:30323449
+"EVisConvYUV"=dword:00000001
+"FlippedIYUV"=dword:00000000
+
+
+;
+; I/O Magic driver (PC Card)
+;
+; The CanSetVideoFormat value is needed.
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\1.0\ImSrc\Devs\VisVFW\I/OMagic Focus Video Capture PCCard]
+"EVisImEncodingColor8bit"=dword:00000000
+"EVisImEncodingRGB24"=dword:00000000
+"EVisImEncodingRGB555"=dword:00000000
+"CanSetVideoFormat"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisSDK\Debug\1.0\ImSrc\Devs\VisVFW\I/OMagic Focus Video Capture PCCard]
+"EVisImEncodingColor8bit"=dword:00000000
+"EVisImEncodingRGB24"=dword:00000000
+"EVisImEncodingRGB555"=dword:00000000
+"CanSetVideoFormat"=dword:00000000

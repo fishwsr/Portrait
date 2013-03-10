@@ -1,0 +1,4 @@
+LIBRARY viscoredb
+DESCRIPTION ""
+EXPORTS
+  ??0CVisSequenceBase@@IAE@W4EVisPixFmt@@H@Z	@1

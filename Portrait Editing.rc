@@ -1,0 +1,313 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Portrait Editing.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Portrait Editing.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_COLOR               BITMAP  DISCARDABLE     "res\\color.BMP"
+IDB_BRUSH               BITMAP  DISCARDABLE     "res\\brush.BMP"
+IDB_STRAW               BITMAP  DISCARDABLE     "res\\straw.BMP"
+IDB_BACKGROUND          BITMAP  DISCARDABLE     "res\\background.BMP"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CROSSSHOW DIALOG DISCARDABLE  0, 0, 500, 360
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    GROUPBOX        "",IDC_CROSS_IMG,7,7,486,346
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CROSSSHOW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 493
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 353
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Portrait Editing"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,23
+    LTEXT           "Portrait Editing Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2006",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_PORTRAITEDITING_DIALOG DIALOGEX 0, 0, 765, 592
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Portrait Editing"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",WS_BORDER | WS_TABSTOP,
+                    207,365,399,197
+    GROUPBOX        "",IDC_SOURCE_IMG,230,100,168,248
+    GROUPBOX        "",IDC_TARGET_IMG,422,100,168,248
+    PUSHBUTTON      "",IDC_OPEN_IMAGE,7,7,76,36,BS_LEFT
+    PUSHBUTTON      "",IDC_FEATURE_LOCAL,120,142,68,29,BS_LEFT
+    PUSHBUTTON      "",IDC_DETECT_BACKGROUND,120,206,68,29,BS_LEFT
+    PUSHBUTTON      "",IDC_DETECT_SKIN,120,236,68,29,BS_LEFT
+    PUSHBUTTON      "",IDC_SKIN_COLOR,662,142,73,29,BS_LEFT
+    PUSHBUTTON      "",IDC_Hair_COLOR,662,173,73,29,BS_LEFT
+    PUSHBUTTON      "",IDC_CLOTH_COLOR,662,237,73,29,BS_LEFT
+    PUSHBUTTON      "",IDC_BACKGROUND_COLOR,662,298,73,29,BS_LEFT
+    PUSHBUTTON      "",IDC_SHADOW_COLOR,662,268,73,29,BS_LEFT
+    PUSHBUTTON      "",IDC_Default_COLOR,655,107,83,29,BS_LEFT
+    PUSHBUTTON      "",IDC_GET_COLOR,592,220,20,25
+    PUSHBUTTON      "",IDC_BRUSH_COLOR,592,257,20,25
+    PUSHBUTTON      "",IDC_DETECT_HAIR,120,263,68,29,BS_LEFT
+    PUSHBUTTON      "",IDC_DETECT_COLLAR,120,294,68,29,BS_LEFT
+    PUSHBUTTON      "",IDC_CROSS_STITCH,670,395,55,28,BS_LEFT
+    PUSHBUTTON      "",IDC_CARTOON,91,101,100,30,BS_LEFT
+    PUSHBUTTON      "",IDC_SAVE,658,515,83,34
+    PUSHBUTTON      "",IDC_EXIT,657,36,85,31
+    PUSHBUTTON      "",IDC_SCISSORS,204,178,21,22,BS_LEFT
+    CONTROL         "",IDC_HAIR,"Button",BS_AUTORADIOBUTTON | WS_GROUP,158,
+                    365,40,16
+    CONTROL         "",IDC_EYEBROW,"Button",BS_AUTORADIOBUTTON,158,387,40,16
+    CONTROL         "",IDC_EYE,"Button",BS_AUTORADIOBUTTON,158,410,40,16
+    CONTROL         "",IDC_MOUTH,"Button",BS_AUTORADIOBUTTON,158,454,40,16
+    CONTROL         "",IDC_NOSE,"Button",BS_AUTORADIOBUTTON,158,432,40,16
+    CONTROL         "",IDC_COLLAR,"Button",BS_AUTORADIOBUTTON,158,523,40,16
+    CONTROL         "",IDC_BACKGROUND,"Button",BS_AUTORADIOBUTTON,158,546,40,
+                    16
+    PUSHBUTTON      "",IDC_AUTORENDER,670,426,55,28,BS_LEFT
+    CONTROL         "",IDC_EFFECT1,"Button",BS_AUTORADIOBUTTON,706,459,9,16
+    CONTROL         "",IDC_EFFECT2,"Button",BS_AUTORADIOBUTTON,730,459,10,16
+    CONTROL         "",IDC_EFFECT3,"Button",BS_AUTORADIOBUTTON,718,459,10,16,
+                    WS_EX_TRANSPARENT
+    CONTROL         "",IDC_FORE,"Button",BS_AUTORADIOBUTTON,201,267,23,13
+    CONTROL         "",IDC_BACKG,"Button",BS_AUTORADIOBUTTON,201,304,21,13
+    PUSHBUTTON      "GCut",IDC_GCUT,206,223,20,15
+    PUSHBUTTON      "Adjust",IDC_CONSTRAIN_ASM,86,152,34,17
+    PUSHBUTTON      "",IDC_DETECT_EAR,120,175,68,29
+    CONTROL         "",IDC_EAR,"Button",BS_AUTORADIOBUTTON,158,477,40,16
+    CONTROL         "",IDC_FACECONTOUR,"Button",BS_AUTORADIOBUTTON,158,499,
+                    41,16
+    PUSHBUTTON      "Redo",IDC_REDO,593,116,18,19
+    PUSHBUTTON      "Undo",IDC_UNDO,594,151,18,19
+    PUSHBUTTON      "Reset",IDC_RESET,592,186,21,19
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_PORTRAITEDITING_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 758
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 585
+        HORZGUIDE, 312
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Portrait Editing MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Portrait Editing\0"
+            VALUE "LegalCopyright", "Copyright (C) 2006\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Portrait Editing.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Portrait Editing Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Portrait Editing..."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Portrait Editing.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

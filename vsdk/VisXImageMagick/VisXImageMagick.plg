@@ -1,0 +1,81 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VisXImageMagick - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo".\Debug/VisXImageMagick.res" /d "_DEBUG" "D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP610.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /Zi /Od /I "..\..\ImageMagick\xlib\include" /I "..\..\ImageMagick\magick" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "VIS_XIMAGEMAGICK_DLL" /Fo".\Debug/" /Fd"Debug/VisXImageMagickDB" /FD /c 
+"D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP610.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP611.tmp" with contents
+[
+..\..\ImageMagick\VisualMagick\lib\IMagickDB.lib /nologo /base:"0x64300000" /subsystem:windows /dll /incremental:no /pdb:"..\bin/VisXImageMagickDB.pdb" /debug /machine:I386 /nodefaultlib:"nafxcwd.lib" /out:"..\bin\VisXImageMagickDB.dll" /implib:"..\Lib/VisXImageMagickDB.lib" 
+.\Debug\VisXImageMagick.obj
+.\Debug\VisXImageMagick.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP611.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+VisXImageMagick.cpp
+Compiling as simple library
+Module compiled as library
+D:\LIANGLIN\IMAGEMAGICK\XLIB\X11/Xmd.h(124) : error C2371: 'INT32' : redefinition; different basic types
+        C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\basetsd.h(33) : see declaration of 'INT32'
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(67) : error C2143: syntax error : missing ';' before '}'
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(67) : error C2143: syntax error : missing ';' before '}'
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(67) : error C2143: syntax error : missing ';' before '}'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\assert.h(57) : error C2143: syntax error : missing ';' before '{'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\assert.h(57) : error C2447: missing function header (old-style formal list?)
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(148) : error C2146: syntax error : missing ',' before identifier 'wErrorType'
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(148) : error C2061: syntax error : identifier 'wErrorType'
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(156) : error C2065: 'szMessage' : undeclared identifier
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(167) : error C2065: 'szQualifier' : undeclared identifier
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(177) : error C2146: syntax error : missing ',' before identifier 'wErrorType'
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(177) : error C2061: syntax error : identifier 'wErrorType'
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(243) : error C2664: 'SetWarningHandler' : cannot convert parameter 1 from 'void (const int)' to 'void (__cdecl *)(const ExceptionType,const char *,const char *)'
+        None of the functions with this name in scope match the target type
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(244) : error C2664: 'SetErrorHandler' : cannot convert parameter 1 from 'void (const int)' to 'void (__cdecl *)(const ExceptionType,const char *,const char *)'
+        None of the functions with this name in scope match the target type
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(337) : error C2660: 'ReadImage' : function does not take 1 parameters
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(405) : error C2039: 'pixels' : is not a member of '_Image'
+        D:\LIANGLIN\IMAGEMAGICK\magick/image.h(276) : see declaration of '_Image'
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(418) : error C2039: 'indexes' : is not a member of '_Image'
+        D:\LIANGLIN\IMAGEMAGICK\magick/image.h(276) : see declaration of '_Image'
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(423) : error C2039: 'indexes' : is not a member of '_Image'
+        D:\LIANGLIN\IMAGEMAGICK\magick/image.h(276) : see declaration of '_Image'
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(439) : error C2039: 'indexes' : is not a member of '_Image'
+        D:\LIANGLIN\IMAGEMAGICK\magick/image.h(276) : see declaration of '_Image'
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(446) : error C2065: 'GetPixelCache' : undeclared identifier
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(446) : error C2440: 'initializing' : cannot convert from 'int' to 'struct _PixelPacket *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(527) : error C2039: 'pixels' : is not a member of '_Image'
+        D:\LIANGLIN\IMAGEMAGICK\magick/image.h(276) : see declaration of '_Image'
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(527) : error C2065: 'AllocateMemory' : undeclared identifier
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(548) : error C2039: 'pixels' : is not a member of '_Image'
+        D:\LIANGLIN\IMAGEMAGICK\magick/image.h(276) : see declaration of '_Image'
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(565) : error C2440: 'initializing' : cannot convert from 'int' to 'struct _PixelPacket *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(575) : error C2065: 'SyncPixelCache' : undeclared identifier
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(645) : error C2065: 'FreeMemory' : undeclared identifier
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(650) : error C2039: 'pixels' : is not a member of '_Image'
+        D:\LIANGLIN\IMAGEMAGICK\magick/image.h(276) : see declaration of '_Image'
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(652) : error C2039: 'pixels' : is not a member of '_Image'
+        D:\LIANGLIN\IMAGEMAGICK\magick/image.h(276) : see declaration of '_Image'
+D:\LiangLin\BetaVisSDK\VisXImageMagick\VisXImageMagick.cpp(653) : error C2039: 'pixels' : is not a member of '_Image'
+        D:\LIANGLIN\IMAGEMAGICK\magick/image.h(276) : see declaration of '_Image'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+VisXImageMagickDB.dll - 30 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

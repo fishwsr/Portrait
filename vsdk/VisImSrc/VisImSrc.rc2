@@ -1,0 +1,22 @@
+//
+// VISIMSRC.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+#include "VisImSrcVersion.h"
+
+#define VIS_SDK_PROJECT_DESCRIPTION			VIS_IMSRC_DESCRIPTION
+#define VIS_SDK_PROJECT_BASE_NAME			VIS_IMSRC_BASE_NAME
+#define VIS_SDK_PROJECT_DEBUG_BASE_NAME		VIS_IMSRC_DEBUG_BASE_NAME
+
+#include "..\VisSDKVersion.rc"
+
+
+/////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,107 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VisImageProc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ZIJIAN\LOCALS~1\Temp\RSP15E1.tmp" with contents
+[
+/nologo /MD /W3 /GX /O1 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "VIS_INCLUDE_SDSTREAM" /Fp"Release/VisImageProc.pch" /YX"VisImageProcPch.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Projects\VisSDK\VisImageProc\VisAlign.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisBlend.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisBlendedSequence.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisBlockAdjust.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisCollection.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisColorAdjust.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisComposite.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisConvolve.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisCylindrical.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisFrame.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisFreeRotation.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisHistogram.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisHistogramEq.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisLineExtract.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisPolygonRender.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisProcMisc.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisPyramid.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisRectangularGrid.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisRegionExtract.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisResample.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisRGBA.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisSDStreamExemplars.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisSprites.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisStereo.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisVoxelColor.cpp"
+"C:\Projects\VisSDK\VisImageProc\VisWarp.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ZIJIAN\LOCALS~1\Temp\RSP15E1.tmp" 
+Creating temporary file "C:\DOCUME~1\ZIJIAN\LOCALS~1\Temp\RSP15E2.tmp" with contents
+[
+/nologo /out:"..\lib\VisImageProc.lib" 
+.\Release\VisAlign.obj
+.\Release\VisBlend.obj
+.\Release\VisBlendedSequence.obj
+.\Release\VisBlockAdjust.obj
+.\Release\VisCollection.obj
+.\Release\VisColorAdjust.obj
+.\Release\VisComposite.obj
+.\Release\VisConvolve.obj
+.\Release\VisCylindrical.obj
+.\Release\VisFrame.obj
+.\Release\VisFreeRotation.obj
+.\Release\VisHistogram.obj
+.\Release\VisHistogramEq.obj
+.\Release\VisLineExtract.obj
+.\Release\VisPolygonRender.obj
+.\Release\VisProcMisc.obj
+.\Release\VisPyramid.obj
+.\Release\VisRectangularGrid.obj
+.\Release\VisRegionExtract.obj
+.\Release\VisResample.obj
+.\Release\VisRGBA.obj
+.\Release\VisSDStreamExemplars.obj
+.\Release\VisSprites.obj
+.\Release\VisStereo.obj
+.\Release\VisVoxelColor.obj
+.\Release\VisWarp.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ZIJIAN\LOCALS~1\Temp\RSP15E2.tmp"
+<h3>Output Window</h3>
+Compiling...
+VisAlign.cpp
+VisBlend.cpp
+VisBlendedSequence.cpp
+VisBlockAdjust.cpp
+VisCollection.cpp
+VisColorAdjust.cpp
+VisComposite.cpp
+VisConvolve.cpp
+VisCylindrical.cpp
+VisFrame.cpp
+VisFreeRotation.cpp
+VisHistogram.cpp
+VisHistogramEq.cpp
+VisLineExtract.cpp
+VisPolygonRender.cpp
+VisProcMisc.cpp
+VisPyramid.cpp
+VisRectangularGrid.cpp
+VisRegionExtract.cpp
+VisResample.cpp
+VisRGBA.cpp
+VisSDStreamExemplars.cpp
+VisSprites.cpp
+VisStereo.cpp
+VisVoxelColor.cpp
+VisWarp.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+VisImageProc.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

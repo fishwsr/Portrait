@@ -1,0 +1,246 @@
+﻿生成启动时间为 2012/3/12 17:35:23。
+     1>项目“F:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 Portrait Yourself\Portrait Editing.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“.\Debug\Portrait Editing.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\include /I.\gdiplus\sdkinc /I.\vsdk\inc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _MBCS /D _AFXDLL /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug/Portrait Editing.pch" /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp /Zm500  
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(102): warning C4348: “CVisConstVector”: 重定义默认参数 : 参数 2
+                 f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(104) : 参见“CVisConstVector”的声明
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(162): warning C4346: “std::map<_Kty,_Ty,_Pr,_Alloc>::_Kfn”: 依赖名称不是类型
+                 用“typename”为前缀来表示类型
+                 f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(275): 参见对正在编译的类 模板 实例化“CVisStlMap<_K,_Ty,_Pr,_A>”的引用
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(162): error C2146: 语法错误: 缺少“;”(在标识符“_Kfn”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(162): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(163): warning C4346: “std::map<_Kty,_Ty,_Pr,_Alloc>::value_compare”: 依赖名称不是类型
+                 用“typename”为前缀来表示类型
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(163): error C2146: 语法错误: 缺少“;”(在标识符“value_compare”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(163): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(169): warning C4346: “_A::reference”: 依赖名称不是类型
+                 用“typename”为前缀来表示类型
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(169): error C2146: 语法错误: 缺少“;”(在标识符“_Tref”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(169): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(170): warning C4346: “std::map<_Kty,_Ty,_Pr,_Alloc>::_Imp”: 依赖名称不是类型
+                 用“typename”为前缀来表示类型
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(170): error C2146: 语法错误: 缺少“;”(在标识符“_Imp”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(170): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(171): error C2653: “_Imp”: 不是类或命名空间名称
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(171): error C2146: 语法错误: 缺少“;”(在标识符“size_type”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(171): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(171): error C2868: “CVisStlMap<_K,_Ty,_Pr,_A>::size_type”: 非法的 using 声明语法；应输入限定名
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(172): error C2653: “_Imp”: 不是类或命名空间名称
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(172): error C2146: 语法错误: 缺少“;”(在标识符“difference_type”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(172): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(172): error C2868: “CVisStlMap<_K,_Ty,_Pr,_A>::difference_type”: 非法的 using 声明语法；应输入限定名
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(173): error C2653: “_Imp”: 不是类或命名空间名称
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(173): error C2146: 语法错误: 缺少“;”(在标识符“reference”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(173): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(173): error C2086: “_A::reference reference”: 重定义
+                 f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(169) : 参见“CVisStlMap<_K,_Ty,_Pr,_A>::operator reference”的声明
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(173): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(174): error C2653: “_Imp”: 不是类或命名空间名称
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(174): error C2146: 语法错误: 缺少“;”(在标识符“const_reference”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(174): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(174): error C2868: “CVisStlMap<_K,_Ty,_Pr,_A>::const_reference”: 非法的 using 声明语法；应输入限定名
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(175): error C2653: “_Imp”: 不是类或命名空间名称
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(175): error C2146: 语法错误: 缺少“;”(在标识符“iterator”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(175): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(175): error C2868: “CVisStlMap<_K,_Ty,_Pr,_A>::iterator”: 非法的 using 声明语法；应输入限定名
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(176): error C2653: “_Imp”: 不是类或命名空间名称
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(176): error C2146: 语法错误: 缺少“;”(在标识符“const_iterator”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(176): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(176): error C2868: “CVisStlMap<_K,_Ty,_Pr,_A>::const_iterator”: 非法的 using 声明语法；应输入限定名
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(177): error C2653: “_Imp”: 不是类或命名空间名称
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(177): error C2146: 语法错误: 缺少“;”(在标识符“reverse_iterator”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(177): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(177): error C2868: “CVisStlMap<_K,_Ty,_Pr,_A>::reverse_iterator”: 非法的 using 声明语法；应输入限定名
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(178): error C2653: “_Imp”: 不是类或命名空间名称
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(178): error C2146: 语法错误: 缺少“;”(在标识符“const_reverse_iterator”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(178): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(178): error C2868: “CVisStlMap<_K,_Ty,_Pr,_A>::const_reverse_iterator”: 非法的 using 声明语法；应输入限定名
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(230): error C2143: 语法错误 : 缺少“;”(在“[”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(230): error C2433: “CVisStlMap<_K,_Ty,_Pr,_A>::_Tref”: 不允许在数据声明中使用“virtual”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(230): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(231): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(252): error C2146: 语法错误: 缺少“;”(在标识符“value_comp”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(252): error C2433: “CVisStlMap<_K,_Ty,_Pr,_A>::value_compare”: 不允许在数据声明中使用“virtual”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(252): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(253): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visstlwrappers.h(253): warning C4183: “value_comp”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(66): warning C4348: “CVisArrayBase”: 重定义默认参数 : 参数 2
+                 f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(68) : 参见“CVisArrayBase”的声明
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(79): warning C4346: “_A::size_type”: 依赖名称不是类型
+                 用“typename”为前缀来表示类型
+                 f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(136): 参见对正在编译的类 模板 实例化“CVisArrayBase<TObj,_A>”的引用
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(79): error C2146: 语法错误: 缺少“;”(在标识符“size_type”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(79): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(80): warning C4346: “_A::difference_type”: 依赖名称不是类型
+                 用“typename”为前缀来表示类型
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(80): error C2146: 语法错误: 缺少“;”(在标识符“difference_type”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(80): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(81): warning C4346: “_A::pointer”: 依赖名称不是类型
+                 用“typename”为前缀来表示类型
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(81): error C2146: 语法错误: 缺少“;”(在标识符“_Tptr”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(81): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(82): warning C4346: “_A::const_pointer”: 依赖名称不是类型
+                 用“typename”为前缀来表示类型
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(82): error C2146: 语法错误: 缺少“;”(在标识符“_Ctptr”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(82): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(83): warning C4346: “_A::reference”: 依赖名称不是类型
+                 用“typename”为前缀来表示类型
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(83): error C2146: 语法错误: 缺少“;”(在标识符“reference”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(83): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(84): warning C4346: “_A::const_reference”: 依赖名称不是类型
+                 用“typename”为前缀来表示类型
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(84): error C2146: 语法错误: 缺少“;”(在标识符“const_reference”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(84): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(85): warning C4346: “_A::value_type”: 依赖名称不是类型
+                 用“typename”为前缀来表示类型
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(85): error C2146: 语法错误: 缺少“;”(在标识符“value_type”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(85): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(86): error C2146: 语法错误: 缺少“;”(在标识符“iterator”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(86): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(86): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(87): error C2146: 语法错误: 缺少“;”(在标识符“const_iterator”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(87): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(87): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(110): error C2146: 语法错误: 缺少“;”(在标识符“begin”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(110): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(110): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(110): warning C4183: “begin”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(111): error C2146: 语法错误: 缺少“;”(在标识符“end”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(111): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(111): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(111): warning C4183: “end”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(116): error C2146: 语法错误: 缺少“;”(在标识符“at”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(116): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(116): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(116): warning C4183: “at”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(117): error C2143: 语法错误 : 缺少“;”(在“[”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(117): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(117): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(119): error C2146: 语法错误: 缺少“;”(在标识符“front”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(119): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(119): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(119): warning C4183: “front”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(120): error C2146: 语法错误: 缺少“;”(在标识符“back”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(120): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(120): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(120): warning C4183: “back”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(130): error C2061: 语法错误: 标识符“size_type”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(130): error C2059: 语法错误:“)”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(130): error C2143: 语法错误 : 缺少“)”(在“;”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(130): error C2535: “CVisArrayBase<TObj,_A>::CVisArrayBase(void)”: 已经定义或声明成员函数
+                 f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(96) : 参见“CVisArrayBase<TObj,_A>::CVisArrayBase”的声明
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(131): error C2061: 语法错误: 标识符“const_iterator”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(131): error C2059: 语法错误:“)”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(131): error C2143: 语法错误 : 缺少“)”(在“;”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(131): error C2535: “CVisArrayBase<TObj,_A>::CVisArrayBase(void)”: 已经定义或声明成员函数
+                 f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(96) : 参见“CVisArrayBase<TObj,_A>::CVisArrayBase”的声明
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(140): warning C4348: “CVisArray”: 重定义默认参数 : 参数 2
+                 f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(141) : 参见“CVisArray”的声明
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(158): error C2061: 语法错误: 标识符“size_type”
+                 f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(265): 参见对正在编译的类 模板 实例化“CVisArray<TObj,_A>”的引用
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(158): error C2059: 语法错误:“)”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(158): error C2143: 语法错误 : 缺少“)”(在“;”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(158): error C2535: “CVisArray<TObj,_A>::CVisArray(void)”: 已经定义或声明成员函数
+                 f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(154) : 参见“CVisArray<TObj,_A>::CVisArray”的声明
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(159): error C2061: 语法错误: 标识符“const_iterator”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(159): error C2059: 语法错误:“)”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(159): error C2143: 语法错误 : 缺少“)”(在“;”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(159): error C2535: “CVisArray<TObj,_A>::CVisArray(void)”: 已经定义或声明成员函数
+                 f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(154) : 参见“CVisArray<TObj,_A>::CVisArray”的声明
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(185): error C2143: 语法错误 : 缺少“;”(在“(”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(185): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(185): error C2061: 语法错误: 标识符“size_type”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(185): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(199): error C2146: 语法错误: 缺少“;”(在标识符“capacity”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(199): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(199): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(199): warning C4183: “capacity”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(200): error C2061: 语法错误: 标识符“size_type”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(202): error C2146: 语法错误: 缺少“;”(在标识符“begin”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(202): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(202): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(202): warning C4183: “begin”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(203): error C2146: 语法错误: 缺少“;”(在标识符“begin”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(203): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(203): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(203): warning C4183: “begin”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(204): error C2146: 语法错误: 缺少“;”(在标识符“end”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(204): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(204): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(204): warning C4183: “end”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(205): error C2146: 语法错误: 缺少“;”(在标识符“end”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(205): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(205): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(205): warning C4183: “end”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(207): error C2061: 语法错误: 标识符“size_type”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(207): error C2059: 语法错误:“)”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(207): error C2143: 语法错误 : 缺少“)”(在“;”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(208): error C2146: 语法错误: 缺少“;”(在标识符“size”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(208): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(208): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(208): warning C4183: “size”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(209): error C2146: 语法错误: 缺少“;”(在标识符“max_size”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(209): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(209): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(209): warning C4183: “max_size”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(212): error C2146: 语法错误: 缺少“;”(在标识符“at”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(212): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(212): error C2061: 语法错误: 标识符“size_type”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(212): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(212): warning C4183: “at”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(213): error C2146: 语法错误: 缺少“;”(在标识符“at”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(213): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(213): error C2061: 语法错误: 标识符“size_type”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(213): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(213): warning C4183: “at”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(214): error C2143: 语法错误 : 缺少“;”(在“[”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(214): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(214): error C2061: 语法错误: 标识符“size_type”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(214): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(214): error C2805: 二进制“operator [”的参数太少
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(215): error C2143: 语法错误 : 缺少“;”(在“[”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(215): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(215): error C2061: 语法错误: 标识符“size_type”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(215): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(215): error C2805: 二进制“operator [”的参数太少
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(217): error C2146: 语法错误: 缺少“;”(在标识符“front”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(217): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(217): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(217): warning C4183: “front”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(218): error C2146: 语法错误: 缺少“;”(在标识符“front”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(218): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(218): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(218): warning C4183: “front”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(219): error C2146: 语法错误: 缺少“;”(在标识符“back”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(219): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(219): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(219): warning C4183: “back”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(220): error C2146: 语法错误: 缺少“;”(在标识符“back”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(220): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(220): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(220): warning C4183: “back”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(225): error C2146: 语法错误: 缺少“;”(在标识符“insert”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(225): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(225): error C2061: 语法错误: 标识符“iterator”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(225): error C2059: 语法错误:“)”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(225): error C2143: 语法错误 : 缺少“)”(在“;”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(225): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(225): warning C4183: “insert”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(226): error C2061: 语法错误: 标识符“iterator”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(227): error C2061: 语法错误: 标识符“iterator”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(227): error C2535: “void CVisArray<TObj,_A>::insert(void)”: 已经定义或声明成员函数
+                 f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(226) : 参见“CVisArray<TObj,_A>::insert”的声明
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(229): error C2061: 语法错误: 标识符“const_iterator”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(230): error C2061: 语法错误: 标识符“size_type”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(230): error C2059: 语法错误:“)”
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(230): error C2143: 语法错误 : 缺少“)”(在“;”的前面)
+     1>f:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 portrait yourself\vsdk\inc\visarray.h(230): fatal error C1003: 错误计数超过 100；正在停止编译
+     1>已完成生成项目“F:\jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\系统\2011.11.25 单机版 Portrait Yourself\Portrait Editing.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:07.42

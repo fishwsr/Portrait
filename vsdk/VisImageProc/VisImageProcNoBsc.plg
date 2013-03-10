@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VisImageProc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\hchen\LOCALS~1\Temp\RSP93A.tmp" with contents
+[
+/nologo /MDd /W3 /GX /Z7 /Od /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "VIS_INCLUDE_SDSTREAM" /D "_DEBUG" /FR"Debug/" /Fp"Debug/VisImageProcNoBsc.pch" /YX"VisImageProc.h" /Fo"Debug/" /Fd"Debug/" /FD /Zm150 /Zm150 /c 
+"E:\face model\BetaVisSDK\VisImageProc\VisAlign.cpp"
+"E:\face model\BetaVisSDK\VisImageProc\VisBlend.cpp"
+"E:\face model\BetaVisSDK\VisImageProc\VisBlockAdjust.cpp"
+"E:\face model\BetaVisSDK\VisImageProc\VisCollection.cpp"
+"E:\face model\BetaVisSDK\VisImageProc\VisComposite.cpp"
+"E:\face model\BetaVisSDK\VisImageProc\VisConvolve.cpp"
+"E:\face model\BetaVisSDK\VisImageProc\VisCylindrical.cpp"
+"E:\face model\BetaVisSDK\VisImageProc\VisFreeRotation.cpp"
+"E:\face model\BetaVisSDK\VisImageProc\VisHistogram.cpp"
+"E:\face model\BetaVisSDK\VisImageProc\VisHistogramEq.cpp"
+"E:\face model\BetaVisSDK\VisImageProc\VisLineExtract.cpp"
+"E:\face model\BetaVisSDK\VisImageProc\VisPolygonRender.cpp"
+"E:\face model\BetaVisSDK\VisImageProc\VisProcMisc.cpp"
+"E:\face model\BetaVisSDK\VisImageProc\VisPyramid.cpp"
+"E:\face model\BetaVisSDK\VisImageProc\VisRectangularGrid.cpp"
+"E:\face model\BetaVisSDK\VisImageProc\VisRegionExtract.cpp"
+"E:\face model\BetaVisSDK\VisImageProc\VisResample.cpp"
+"E:\face model\BetaVisSDK\VisImageProc\VisRGBA.cpp"
+"E:\face model\BetaVisSDK\VisImageProc\VisSprites.cpp"
+"E:\face model\BetaVisSDK\VisImageProc\VisStereo.cpp"
+"E:\face model\BetaVisSDK\VisImageProc\VisWarp.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\hchen\LOCALS~1\Temp\RSP93A.tmp" 
+Creating temporary file "C:\DOCUME~1\hchen\LOCALS~1\Temp\RSP93B.tmp" with contents
+[
+/nologo /out:"..\lib\VisImageProcDB.lib" 
+".\Debug\VisAlign.obj"
+".\Debug\VisBlend.obj"
+".\Debug\VisBlockAdjust.obj"
+".\Debug\VisCollection.obj"
+".\Debug\VisComposite.obj"
+".\Debug\VisConvolve.obj"
+".\Debug\VisCylindrical.obj"
+".\Debug\VisFreeRotation.obj"
+".\Debug\VisHistogram.obj"
+".\Debug\VisHistogramEq.obj"
+".\Debug\VisLineExtract.obj"
+".\Debug\VisPolygonRender.obj"
+".\Debug\VisProcMisc.obj"
+".\Debug\VisPyramid.obj"
+".\Debug\VisRectangularGrid.obj"
+".\Debug\VisRegionExtract.obj"
+".\Debug\VisResample.obj"
+".\Debug\VisRGBA.obj"
+".\Debug\VisSprites.obj"
+".\Debug\VisStereo.obj"
+".\Debug\VisWarp.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\hchen\LOCALS~1\Temp\RSP93B.tmp"
+<h3>Output Window</h3>
+Compiling...
+VisAlign.cpp
+cl.exe terminated at user request.
+
+</pre>
+</body>
+</html>

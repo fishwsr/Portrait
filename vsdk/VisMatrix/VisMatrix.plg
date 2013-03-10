@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VisMatrix - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/VisMatrix.res" /d "_DEBUG" "D:\Research\Sourcecode\current\Humanface\vsdk\VisMatrix\VisMatrix.rc"" 
+Creating temporary file "C:\DOCUME~1\ZIJIAN\LOCALS~1\Temp\RSP1FFD.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "VIS_MATRIX_BUILD" /D "VIS_INCLUDE_SDSTREAM" /FR"Debug/" /Fo"Debug/" /Fd"Debug/VisMatrixDB" /FD /GZ /c 
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisMatrix\VisCovariance.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisMatrix\VisDMatrix.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisMatrix\VisMatrixDLL.cpp"
+"D:\Research\Sourcecode\current\Humanface\vsdk\VisMatrix\VisTransform4x4.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ZIJIAN\LOCALS~1\Temp\RSP1FFD.tmp" 
+Creating temporary file "C:\DOCUME~1\ZIJIAN\LOCALS~1\Temp\RSP1FFE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib /nologo /base:"0x64200000" /subsystem:windows /dll /incremental:no /pdb:"..\bin/VisMatrixDB.pdb" /debug /machine:I386 /out:"..\bin/VisMatrixDB.dll" /implib:"..\Lib/VisMatrixDB.lib" 
+.\Debug\VisCovariance.obj
+.\Debug\VisDMatrix.obj
+.\Debug\VisMatrixDLL.obj
+.\Debug\VisTransform4x4.obj
+.\Debug\VisMatrix.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ZIJIAN\LOCALS~1\Temp\RSP1FFE.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+VisCovariance.cpp
+cl.exe terminated at user request.
+
+</pre>
+</body>
+</html>

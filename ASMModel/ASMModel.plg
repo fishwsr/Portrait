@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ASMModel - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zijian\LOCALS~1\Temp\RSPC8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\opencv\cxcore\include" /I "..\opencv\cv\include" /I "..\opencv\otherlibs\highgui" /I "..\opencv\cvaux\include" /I "..\gdiplus\sdkinc" /I "..\vsdk\inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "ASMMODEL_EXPORTS" /FR"../Debug/ASMModel/" /Fo"../Debug/ASMModel/" /Fd"../Debug/ASMModel/" /FD /GZ /c 
+"D:\Research\Sourcecode\current\Humanface\ASMModel\ASMDll.cpp"
+"D:\Research\Sourcecode\current\Humanface\ASMModel\ASMLocalProfile.cpp"
+"D:\Research\Sourcecode\current\Humanface\ASMModel\ASMML2DSearchModel.cpp"
+"D:\Research\Sourcecode\current\Humanface\ASMModel\ASMMLSearchModel.cpp"
+"D:\Research\Sourcecode\current\Humanface\ASMModel\ASMMLSearchModelBayesian.cpp"
+"D:\Research\Sourcecode\current\Humanface\ASMModel\ASMModel.cpp"
+"D:\Research\Sourcecode\current\Humanface\ASMModel\ASMPCALocalStruct.cpp"
+"D:\Research\Sourcecode\current\Humanface\ASMModel\ASMSearchOption.cpp"
+"D:\Research\Sourcecode\current\Humanface\ASMModel\GenerativeShapeModel.cpp"
+"D:\Research\Sourcecode\current\Humanface\ASMModel\LocalPatchModel.cpp"
+"D:\Research\Sourcecode\current\Humanface\ASMModel\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zijian\LOCALS~1\Temp\RSPC8.tmp" 
+Creating temporary file "C:\DOCUME~1\zijian\LOCALS~1\Temp\RSPC9.tmp" with contents
+[
+cvd.lib highguid.lib cvauxd.lib cxcored.lib /nologo /dll /incremental:yes /pdb:"..\pdb\ASMModelD.pdb" /debug /machine:I386 /out:"../Bin/ASMModelD.dll" /implib:"../lib/ASMModelD.lib" /pdbtype:sept /libpath:"..\Lib\\" 
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\ASMDll.obj
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\ASMLocalProfile.obj
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\ASMML2DSearchModel.obj
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\ASMMLSearchModel.obj
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\ASMMLSearchModelBayesian.obj
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\ASMModel.obj
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\ASMPCALocalStruct.obj
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\ASMSearchOption.obj
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\GenerativeShapeModel.obj
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\LocalPatchModel.obj
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\PatchShapeModel.obj
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\StdAfx.obj
+\Research\Sourcecode\current\Humanface\Lib\BaseModelD.lib
+\Research\Sourcecode\current\Humanface\lib\CSBaseD.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\zijian\LOCALS~1\Temp\RSPC9.tmp"
+<h3>Output Window</h3>
+Compiling...
+ASMDll.cpp
+Generating Code...
+Compiling...
+ASMLocalProfile.cpp
+ASMML2DSearchModel.cpp
+ASMMLSearchModel.cpp
+ASMMLSearchModelBayesian.cpp
+ASMModel.cpp
+ASMPCALocalStruct.cpp
+ASMSearchOption.cpp
+GenerativeShapeModel.cpp
+LocalPatchModel.cpp
+StdAfx.cpp
+Generating Code...
+Linking...
+   Creating library ../lib/ASMModelD.lib and object ../lib/ASMModelD.exp
+Creating temporary file "C:\DOCUME~1\zijian\LOCALS~1\Temp\RSPCD.tmp" with contents
+[
+/nologo /o"../Debug/ASMModel/ASMModel.bsc" 
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\ASMDll.sbr
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\ASMLocalProfile.sbr
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\ASMML2DSearchModel.sbr
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\ASMMLSearchModel.sbr
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\ASMMLSearchModelBayesian.sbr
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\ASMModel.sbr
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\ASMPCALocalStruct.sbr
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\ASMSearchOption.sbr
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\GenerativeShapeModel.sbr
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\LocalPatchModel.sbr
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\PatchShapeModel.sbr
+\Research\Sourcecode\current\Humanface\Debug\ASMModel\StdAfx.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\zijian\LOCALS~1\Temp\RSPCD.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ASMModelD.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

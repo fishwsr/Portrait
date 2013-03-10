@@ -1,0 +1,21 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VisLocalInfo - Win32 Debug--------------------
+</h3>
+
+VisLocalInfo.h already exists.  File not modified.
+<h3>
+--------------------Configuration: VisMatrixLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+VisMatrixLibDB.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
